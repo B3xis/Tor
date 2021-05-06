@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Walls : MonoBehaviour
 {
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +17,11 @@ public class Walls : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider hit)
-    {
-        gameObject.SetActive(false);
-        Debug.Log("mudak");
-        // Destroy(gameObject);
-    }
+    // private void OnTriggerEnter(Collider hit)
+    // {
+    //     gameObject.SetActive(false);
+    //     Debug.Log("mudak");
+    //     // Destroy(gameObject);
+    // }
+    
 }

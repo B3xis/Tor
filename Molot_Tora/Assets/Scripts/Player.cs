@@ -1,22 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public GameObject player;
+    public Slider progressBar;
     float speed = 0.27f;
+
+    public Text score;
+   public int scrint = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        progressBar.maxValue = 303;
     }
 
     // Update is called once per frame
     void Update()
     {
        Moove();
-        
+        score.text = scrint.ToString();
     }
     void OnMouseDrag()
     {
@@ -62,7 +67,7 @@ public class Player : MonoBehaviour
                     
                 }
                     
-                player.transform.Translate(new Vector3(Input.mousePosition.x / 7000, 0, 0));
+                player.transform.Translate(new Vector3(Input.mousePosition.x / 7500, 0, 0));
             }
             
         }
@@ -75,7 +80,7 @@ public class Player : MonoBehaviour
                     player.transform.position = new Vector3(-5, 0, 0);
                     //player.transform.position.x = 4;
                 }
-                player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) /7000, 0, 0));
+                player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) /7500, 0, 0));
             }
         }
             
@@ -84,5 +89,16 @@ public class Player : MonoBehaviour
     void Moove()
     {
         player.transform.Translate(Vector3.forward * speed);
+        progressBar.value+= 0.27f;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.collider.tag);
+        if (collision.collider.tag == "sLAVE")
+        {
+            scrint += 5;
+           
+        }
+
     }
 }
