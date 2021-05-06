@@ -62,7 +62,7 @@ public class Player : MonoBehaviour
                     
                 }
                     
-                player.transform.Translate(new Vector3(Input.mousePosition.x / 2000, 0, 0));
+                player.transform.Translate(new Vector3(Input.mousePosition.x / 7000, 0, 0));
             }
             
         }
@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
                     player.transform.position = new Vector3(-5, 0, 0);
                     //player.transform.position.x = 4;
                 }
-                player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) /2000, 0, 0));
+                player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) /7000, 0, 0));
             }
         }
             
