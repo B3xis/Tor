@@ -9,19 +9,17 @@ public class Player : MonoBehaviour
     public Slider progressBar;
     float speed = 0.27f;
 
-    public Text score;
-   public int scrint = 0;
-    // Start is called before the first frame update
+    public Text ScoreText;
+    public int score = 0;
+
     void Start()
     {
         progressBar.maxValue = 303;
     }
 
-    // Update is called once per frame
     void Update()
     {
-       Moove();
-        score.text = scrint.ToString();
+        Move();
     }
     void OnMouseDrag()
     {
@@ -78,7 +76,6 @@ public class Player : MonoBehaviour
                 if (player.transform.position.x <= -5)
                 {
                     player.transform.position = new Vector3(-5, 0, 0);
-                    //player.transform.position.x = 4;
                 }
                 player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) /7500, 0, 0));
             }
@@ -86,18 +83,17 @@ public class Player : MonoBehaviour
             
     }
     
-    void Moove()
+    void Move()
     {
         player.transform.Translate(Vector3.forward * speed);
         progressBar.value+= 0.27f;
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.collider.tag);
         if (collision.collider.tag == "sLAVE")
         {
-            scrint += 5;
-           
+            score += 5;
+            ScoreText.text = score.ToString();
         }
 
     }
