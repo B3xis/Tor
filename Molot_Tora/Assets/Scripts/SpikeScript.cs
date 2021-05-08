@@ -7,6 +7,9 @@ public class SpikeScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider hit)
     {
-        Application.Quit();
+        if (hit.tag == "Player")
+        {
+            Application.Quit();
+        }
     }
 }

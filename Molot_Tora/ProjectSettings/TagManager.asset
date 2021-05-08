@@ -6,6 +6,9 @@ TagManager:
   tags:
   - sLAVE
   - Wall
+  - x1
+  - x3
+  - Spike
   layers:
   - Default
   - TransparentFX

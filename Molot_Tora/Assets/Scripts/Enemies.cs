@@ -7,6 +7,9 @@ public class Enemies : MonoBehaviour
    
     private void OnTriggerEnter(Collider hit)
     {
-        Destroy(gameObject);
+        if (hit.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }

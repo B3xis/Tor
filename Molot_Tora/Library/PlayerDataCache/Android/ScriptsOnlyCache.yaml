@@ -3,7 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BossScript
     - Bricks
+    - Bullet
     - DetailManager
+    - Enemies
+    - EnemyTrigger
     - Player
     - RestartButton
     - SpikeScript
@@ -12,6 +15,13 @@ ScriptsOnlyBuild:
     - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -52,13 +62,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -81,19 +93,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1924}
     - Class: 114
-      Script: {instanceID: 2220}
+      Script: {instanceID: 1978}
     - Class: 114
-      Script: {instanceID: 2374}
+      Script: {instanceID: 2222}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2376}
     - Class: 114
-      Script: {instanceID: 2820}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 3044}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3360}
+      Script: {instanceID: 2824}
     - Class: 114
-      Script: {instanceID: 3496}
+      Script: {instanceID: 3000}
+    - Class: 114
+      Script: {instanceID: 3050}
+    - Class: 114
+      Script: {instanceID: 3366}
+    - Class: 114
+      Script: {instanceID: 3502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -101,6 +119,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -292,6 +312,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Enemies
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
@@ -417,6 +443,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: 2c50ba461c9b78ac09e8e0d20ae8b30d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Bullet
+  - hash:
+      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -457,6 +489,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 64d82499cfaf0ef69742fb08832e887c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyTrigger
   - hash:
       serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270

@@ -7,11 +7,12 @@ public class Player : MonoBehaviour
 {
     public GameObject player;
     public Slider progressBar;
-    float speed = 0.27f;
+    float speed = -0.25f;
 
     public Text ScoreText;
     public int score = 0;
 
+    public int bricksNum;
     void Start()
     {
         progressBar.maxValue = 303;
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
+
     }
     void OnMouseDrag()
     {
@@ -64,8 +66,8 @@ public class Player : MonoBehaviour
                     player.transform.position = new Vector3(5,0,0);
                     
                 }
-                    
-                player.transform.Translate(new Vector3(Input.mousePosition.x / 7500, 0, 0));
+               // player.transform.Rotate(0,-0.1f,0);
+                player.transform.Translate(new Vector3(Input.mousePosition.x / 8000*(-1), 0, 0));
             }
             
         }
@@ -77,7 +79,8 @@ public class Player : MonoBehaviour
                 {
                     player.transform.position = new Vector3(-5, 0, 0);
                 }
-                player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) /7500, 0, 0));
+                //player.transform.Rotate(0,0.1f, 0);
+                player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) /8000 * (-1), 0, 0));
             }
         }
             
@@ -86,7 +89,27 @@ public class Player : MonoBehaviour
     void Move()
     {
         player.transform.Translate(Vector3.forward * speed);
-        progressBar.value+= 0.27f;
+        progressBar.value+= 0.25f;
+      //  if (Input.GetKey("a"))
+      //  {
+      //      if (player.transform.position.x >= 5)
+      //      {
+      //          player.transform.position = new Vector3(5, 0, 0);
+      //
+      //      }
+      //
+      //      player.transform.Translate(new Vector3(Input.mousePosition.x / 7500, 0, 0));
+      //
+      //      
+      //  }
+      //  else if (Input.GetKey("d"))
+      //  {
+      //      if (player.transform.position.x <= -5)
+      //      {
+      //          player.transform.position = new Vector3(-5, 0, 0);
+      //      }
+      //      player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) / 7500, 0, 0));
+      //  }
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -94,6 +117,19 @@ public class Player : MonoBehaviour
         {
             score += 5;
             ScoreText.text = score.ToString();
+        }
+
+    }
+    private void OnTriggerEnter(Collider hit)
+    {
+        Debug.Log(hit.name);
+        if (hit.tag == "x1")
+        {
+            bricksNum++;
+        }
+        else if(hit.tag == "x3")
+        {
+            bricksNum += 3;
         }
 
     }

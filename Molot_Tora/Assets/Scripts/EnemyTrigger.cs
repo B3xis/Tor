@@ -10,10 +10,14 @@ public class EnemyTrigger : MonoBehaviour
   
     private void OnTriggerEnter(Collider hit)
     {
-        Debug.Log("123132");
-        Instantiate(bullet, enemy1.transform.position, transform.rotation);
-        Instantiate(bullet, enemy2.transform.position, transform.rotation);
-        Instantiate(bullet, enemy3.transform.position, transform.rotation);
+        Debug.Log(hit.name);
+        if(hit.tag == "Player")
+        {
+            Instantiate(bullet, enemy1.transform.position, transform.rotation);
+            Instantiate(bullet, enemy2.transform.position, transform.rotation);
+            Instantiate(bullet, enemy3.transform.position, transform.rotation);
+        }
+        
     }
     
 }
