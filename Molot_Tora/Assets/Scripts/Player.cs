@@ -5,22 +5,36 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject player, hummer;
     public Slider progressBar;
+
+    public List<GameObject> hummerBricks = new List<GameObject>();
+
+
     float speed = -0.25f;
 
     public Text ScoreText;
     public int score = 0;
 
     public int bricksNum;
-    void Start()
+
+
+   public int clock ;
+   void Start()
     {
         progressBar.maxValue = 303;
+
+       for (int i = 0; i < 48; i++)
+       {
+          hummerBricks[i].gameObject.SetActive(false);
+       }
+
     }
 
     void Update()
     {
         Move();
+        ScoreText.text = score.ToString();
 
     }
     void OnMouseDrag()
@@ -116,7 +130,7 @@ public class Player : MonoBehaviour
         if (collision.collider.tag == "sLAVE")
         {
             score += 5;
-            ScoreText.text = score.ToString();
+            
         }
 
     }
@@ -125,12 +139,37 @@ public class Player : MonoBehaviour
         Debug.Log(hit.name);
         if (hit.tag == "x1")
         {
+            bricksNum ++;
+            
+            hummerBricks[clock].gameObject.SetActive(true);
+            clock++;
             bricksNum++;
+
+            hummerBricks[clock].gameObject.SetActive(true);
+            clock++;
         }
-        else if(hit.tag == "x3")
+        else if (hit.tag == "x3")
         {
-            bricksNum += 3;
+            bricksNum += 10;
+            clock += 10;
+            for (int i = clock-10; i < clock; i++)
+            {
+                hummerBricks[i].gameObject.SetActive(true);
+            }
+            
         }
+       
+        else if (hit.tag == "bullet")
+            {
+                
+
+                bricksNum--;
+                clock--;
+                hummerBricks[clock].gameObject.SetActive(false);
+
+
+        }
+        
 
     }
 }

@@ -14,26 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Materials/Meadow.mat
-    - Assets/Models/Hummer_animin_controller.controller
-    - Assets/Models/Hummer_animin_controller.controller.meta
-    - Assets/Models/Hummer_run_anim 1.controller
-    - Assets/Models/Hummer_run_anim 1.controller.meta
-    - Assets/Models/Hummer_run_anim.fbx.meta
-    - Assets/Models/New Folder.meta
-    - Assets/Models/Player_with_Hummer_run_anim 1.controller
-    - Assets/Models/cube stage 3.009_cube stage 3.009Action.anim
-    - Assets/Models/cube stage 3.009_cube stage 3.009Action.anim.meta
-    - Assets/Scenes/GameScene.unity
-    - Assets/Scripts/DetailManager.cs
+    - Assets/Prefabs/Bullet.prefab
+    - Assets/Scripts/Bullet.cs
     - Assets/Scripts/Enemies.cs
     - Assets/Scripts/Player.cs
-    - Assets/Scripts/RestartButton.cs
     - Assets/Scripts/SpikeScript.cs
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000
-  RevisionSummary: 
+    m_Values: 00010100010000
+  RevisionSummary: "\u041B\u043E\u0433\u0438\u043A\u0430 \u0443\u043C\u0435\u043D\u044C\u0448\u0435\u043D\u0438\u044F
+    \u0431\u043B\u043E\u043A\u043E\u0432 \u0432 \u043C\u043E\u043B\u043E\u0442\u0435
+    \u043F\u0440\u0438 \u0441\u0442\u043E\u043B\u043A\u043D\u043E\u0432\u0435\u043D\u0438\u0438"
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

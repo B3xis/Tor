@@ -9,6 +9,7 @@ TagManager:
   - x1
   - x3
   - Spike
+  - bullet
   layers:
   - Default
   - TransparentFX
