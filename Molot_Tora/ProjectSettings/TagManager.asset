@@ -10,6 +10,7 @@ TagManager:
   - x3
   - Spike
   - bullet
+  - Gold
   layers:
   - Default
   - TransparentFX

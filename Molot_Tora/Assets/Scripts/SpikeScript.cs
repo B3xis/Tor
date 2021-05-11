@@ -20,7 +20,9 @@ public class SpikeScript : MonoBehaviour
             player.bricksNum--;
             player.clock--;
             player.hummerBricks[player.clock].gameObject.SetActive(false);
-               
+            player.bricksNum--;
+            player.clock--;
+            player.hummerBricks[player.clock].gameObject.SetActive(false);
             // Application.Quit();
         }
     }

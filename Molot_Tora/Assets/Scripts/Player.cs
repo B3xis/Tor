@@ -148,6 +148,25 @@ public class Player : MonoBehaviour
             hummerBricks[clock].gameObject.SetActive(true);
             clock++;
         }
+        if (hit.tag == "Gold")
+        {
+            bricksNum++;
+
+            hummerBricks[clock].gameObject.SetActive(true);
+            clock++;
+            bricksNum++;
+
+            hummerBricks[clock].gameObject.SetActive(true);
+            clock++;
+            bricksNum++;
+
+            hummerBricks[clock].gameObject.SetActive(true);
+            clock++;
+            bricksNum++;
+
+            hummerBricks[clock].gameObject.SetActive(true);
+            clock++;
+        }
         else if (hit.tag == "x3")
         {
             bricksNum += 10;
@@ -166,7 +185,9 @@ public class Player : MonoBehaviour
                 bricksNum--;
                 clock--;
                 hummerBricks[clock].gameObject.SetActive(false);
-
+                bricksNum--;
+                clock--;
+                hummerBricks[clock].gameObject.SetActive(false);
 
         }
         

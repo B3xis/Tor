@@ -13,10 +13,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
-  RevisionSummary: 
+    m_Keys:
+    - Assets/Materials/photo_2021-04-26_00-34-23.mat
+    - Assets/Prefabs/Hummer_gold.prefab
+    - Assets/Prefabs/Hummer_gold.prefab.meta
+    - Assets/Scenes/Level4.unity
+    - Assets/Scenes/Level5.unity
+    - Assets/Scripts/Player.cs
+    - ProjectSettings/TagManager.asset
+    - 
+    m_Values: 0001010100010000
+  RevisionSummary: "\u0412 4\u0439 \u043D\u0443\u0436\u043D\u044B \u043C\u043E\u043D\u0435\u0442\u044B"
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 0
+  TabIndex: 1
