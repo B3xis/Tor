@@ -110,7 +110,7 @@ public class Player : MonoBehaviour
         }
         if (hit.tag == "Gold")
         {
-            if (lname == "Level6")
+            if (lname == "Level5")
             {
                 bricksNum += 16;
                 clock += 16;
