@@ -14,14 +14,18 @@ public class Player : MonoBehaviour
     float speed = -0.25f;
 
     public Text ScoreText;
+    public Text CoinsText;
+    public int CoinsScore;
     public int score = 0;
 
     public int bricksNum;
 
 
+
    public int clock ;
    void Start()
     {
+        CoinsScore = PlayerPrefs.GetInt("Coins", CoinsScore);
         progressBar.maxValue = 303;
 
        for (int i = 0; i < 48; i++)
@@ -190,7 +194,13 @@ public class Player : MonoBehaviour
                 hummerBricks[clock].gameObject.SetActive(false);
 
         }
-        
+        else if (hit.tag == "Coins")
+        {
+
+            CoinsScore += 25;
+            CoinsText.text = CoinsScore.ToString();
+            PlayerPrefs.SetInt("Coins", CoinsScore);
+        }
 
     }
 }

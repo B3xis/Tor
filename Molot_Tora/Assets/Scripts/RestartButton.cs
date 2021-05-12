@@ -8,7 +8,8 @@ public class RestartButton : MonoBehaviour
     public GameObject light;
     public void OnButtonFunc()
     {
-        
-        SceneManager.LoadScene("GameScene");
+        string lname = SceneManager.GetActiveScene().name;
+
+        SceneManager.LoadScene(lname);
     }
 }

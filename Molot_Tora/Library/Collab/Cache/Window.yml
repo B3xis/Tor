@@ -14,16 +14,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Materials/photo_2021-04-26_00-34-23.mat
-    - Assets/Prefabs/Hummer_gold.prefab
-    - Assets/Prefabs/Hummer_gold.prefab.meta
+    - Assets/Prefabs/Coin.prefab
+    - Assets/Prefabs/Coin.prefab.meta
+    - Assets/Scenes/GameScene.unity
+    - Assets/Scenes/Level10.unity
+    - Assets/Scenes/Level11.unity
+    - Assets/Scenes/Level12.unity
+    - Assets/Scenes/Level13.unity
+    - Assets/Scenes/Level14.unity
+    - Assets/Scenes/Level15.unity
+    - Assets/Scenes/Level2.unity
+    - Assets/Scenes/Level3.unity
     - Assets/Scenes/Level4.unity
     - Assets/Scenes/Level5.unity
+    - Assets/Scenes/Level6.unity
+    - Assets/Scenes/Level7.unity
+    - Assets/Scenes/Level8.unity
+    - Assets/Scenes/Level9.unity
+    - Assets/Scripts/CoinsScript.cs
+    - Assets/Scripts/CoinsScript.cs.meta
     - Assets/Scripts/Player.cs
+    - Assets/Scripts/RestartButton.cs
+    - Assets/Sprites/Materials.meta
+    - Assets/Sprites/Materials/coin_PNG36868.mat
+    - Assets/Sprites/Materials/coin_PNG36868.mat.meta
+    - Assets/Sprites/coin_PNG36868.png
+    - Assets/Sprites/coin_PNG36868.png.meta
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0001010100010000
-  RevisionSummary: "\u0412 4\u0439 \u043D\u0443\u0436\u043D\u044B \u043C\u043E\u043D\u0435\u0442\u044B"
+    m_Values: 00000000000000000000000000000000000000000100000000000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

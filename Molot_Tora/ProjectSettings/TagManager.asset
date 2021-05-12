@@ -11,6 +11,7 @@ TagManager:
   - Spike
   - bullet
   - Gold
+  - Coins
   layers:
   - Default
   - TransparentFX
