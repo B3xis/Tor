@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\EnemyTrigger.cs" />
     <Compile Include="Assets\Scripts\CoinsScript.cs" />
+    <Compile Include="Assets\Scripts\MooveScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

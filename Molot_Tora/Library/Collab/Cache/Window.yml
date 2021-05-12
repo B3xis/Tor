@@ -14,37 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs/Coin.prefab
-    - Assets/Prefabs/Coin.prefab.meta
-    - Assets/Scenes/GameScene.unity
-    - Assets/Scenes/Level10.unity
-    - Assets/Scenes/Level11.unity
-    - Assets/Scenes/Level12.unity
-    - Assets/Scenes/Level13.unity
-    - Assets/Scenes/Level14.unity
-    - Assets/Scenes/Level15.unity
-    - Assets/Scenes/Level2.unity
-    - Assets/Scenes/Level3.unity
-    - Assets/Scenes/Level4.unity
-    - Assets/Scenes/Level5.unity
-    - Assets/Scenes/Level6.unity
-    - Assets/Scenes/Level7.unity
-    - Assets/Scenes/Level8.unity
-    - Assets/Scenes/Level9.unity
-    - Assets/Scripts/CoinsScript.cs
-    - Assets/Scripts/CoinsScript.cs.meta
-    - Assets/Scripts/Player.cs
-    - Assets/Scripts/RestartButton.cs
-    - Assets/Sprites/Materials.meta
-    - Assets/Sprites/Materials/coin_PNG36868.mat
-    - Assets/Sprites/Materials/coin_PNG36868.mat.meta
-    - Assets/Sprites/coin_PNG36868.png
-    - Assets/Sprites/coin_PNG36868.png.meta
-    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 00000000000000000000000000000000000000000100000000000000
+    m_Values: 01
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 1
+  TabIndex: 0
