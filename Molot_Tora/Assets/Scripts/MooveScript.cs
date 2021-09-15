@@ -38,34 +38,37 @@ public class MooveScript : MonoBehaviour
         //    player.GetComponent<Rigidbody>().MovePosition(new Vector3(Input.mousePosition.x / 100000, 1, 0));
         //else
         //    player.GetComponent<Rigidbody>().MovePosition(new Vector3(-(Screen.width - Input.mousePosition.x) / 100000, 1, 0));
-        if (Input.mousePosition.x > Screen.width / 2)
-        {
 
 
-            if (player.transform.position.x <= 4.7f)
-            {
-                if (player.transform.position.x >= 5)
-                {
-                    player.transform.position = new Vector3(5, 0, 0);
 
-                }
-                // player.transform.Rotate(0,-0.1f,0);
-                player.transform.Translate(new Vector3(Input.mousePosition.x / 7800 * (-1), 0, 0));
-            }
+       if (Input.mousePosition.x > Screen.width / 2)
+       {
 
-        }
-        else
-        {
-            if (player.transform.position.x >= -4.2f)
-            {
-                if (player.transform.position.x <= -5)
-                {
-                    player.transform.position = new Vector3(-5, 0, 0);
-                }
-                //player.transform.Rotate(0,0.1f, 0);
-                player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) / 7800 * (-1), 0, 0));
-            }
-        }
+
+           if (player.transform.position.x <= 4.7f)
+           {
+               if (player.transform.position.x >= 5)
+               {
+                   player.transform.position = new Vector3(5, 0, 0);
+
+               }
+               // player.transform.Rotate(0,-0.1f,0);
+               player.transform.Translate(new Vector3(Input.mousePosition.x / 7800 * (-1), 0, 0));
+           }
+
+       }
+       else
+       {
+           if (player.transform.position.x >= -4.2f)
+           {
+               if (player.transform.position.x <= -5)
+               {
+                   player.transform.position = new Vector3(-5, 0, 0);
+               }
+               //player.transform.Rotate(0,0.1f, 0);
+               player.transform.Translate(new Vector3(-(Screen.width - Input.mousePosition.x) / 7800 * (-1), 0, 0));
+           }
+       }
         
     }
 }

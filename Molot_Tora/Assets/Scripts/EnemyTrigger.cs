@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyTrigger : MonoBehaviour
 {
 
-    public GameObject enemy1, enemy2, enemy3, bullet;
+    public GameObject enemy, bullet;
 
   
     private void OnTriggerEnter(Collider hit)
@@ -13,9 +13,7 @@ public class EnemyTrigger : MonoBehaviour
         Debug.Log(hit.name);
         if(hit.tag == "Player")
         {
-            Instantiate(bullet, enemy1.transform.position, transform.rotation);
-            Instantiate(bullet, enemy2.transform.position, transform.rotation);
-            Instantiate(bullet, enemy3.transform.position, transform.rotation);
+            Instantiate(bullet, enemy.transform.position + Vector3.up, transform.rotation);
         }
         
     }

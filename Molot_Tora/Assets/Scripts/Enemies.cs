@@ -4,20 +4,16 @@ using UnityEngine;
 
 public class Enemies : MonoBehaviour
 {
-    public GameObject obj;
-    Player player ;
+    public GameObject assembledModel;
+    public GameObject disassembledModel;
+
+
     private void OnTriggerEnter(Collider hit)
     {
-        player = obj.GetComponent<Player>();
         if (hit.tag == "Player")
         {
-
-         // Debug.Log("enem");
-         // Debug.Log(Player.bricksNum);
-         // Debug.Log(Player.clock);
-
-            player.score += 20;
-            Destroy(gameObject);
+            disassembledModel.SetActive(true);
+            assembledModel.SetActive(false);
         }
     }
 }

@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class RestartButton : MonoBehaviour
 {
-    public GameObject light;
     public void OnButtonFunc()
     {
         string Scname = SceneManager.GetActiveScene().name;

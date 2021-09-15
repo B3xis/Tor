@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: fc12320455b3ee34389a86b7bc3ab291
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -1056685191901653630
+    second: cube stage 2.001|cube stage 3.009Action
+  - first:
+      74: 8439781631394340715
+    second: stage_1_piece|cube stage 3.009Action
+  - first:
+      74: -8881260094208489521
+    second: stage_1_piece.001|cube stage 3.009Action
+  - first:
+      74: -2017443721350507340
+    second: stage_1_piece.002|cube stage 3.009Action
+  - first:
+      74: -6477871681863873738
+    second: stage_1_piece.003|cube stage 3.009Action
+  - first:
+      74: -8582242976530430433
+    second: stage_1_piece.004|cube stage 3.009Action
+  - first:
+      74: 3393028677771190169
+    second: stage_1_piece.005|cube stage 3.009Action
+  - first:
+      74: 1026104774610768691
+    second: stage_1_piece.006|cube stage 3.009Action
+  - first:
+      74: -7251664793312945670
+    second: stage_1_piece.007|cube stage 3.009Action
+  - first:
+      74: 6710507532223724075
+    second: stage_1_piece.010|cube stage 3.009Action
+  - first:
+      74: -5759941880306688
+    second: stage_1_piece.011|cube stage 3.009Action
+  - first:
+      74: -5806248301169119822
+    second: stage_1_piece.012|cube stage 3.009Action
+  - first:
+      74: -2892323618636175157
+    second: stage_1_piece.015|cube stage 3.009Action
+  - first:
+      74: 6744649821987428314
+    second: stage_1_piece.016|cube stage 3.009Action
+  - first:
+      74: -3222675680114577097
+    second: stage_1_piece.017|cube stage 3.009Action
+  - first:
+      74: 1861617470776057851
+    second: stage_1_piece.018|cube stage 3.009Action
+  - first:
+      74: 3137961207096494344
+    second: stage_1_piece.019|cube stage 3.009Action
+  - first:
+      74: -7326254147009055591
+    second: stage_1_piece.020|cube stage 3.009Action
+  - first:
+      74: -7773087265176853955
+    second: stage_1_piece.021|cube stage 3.009Action
+  - first:
+      74: 3553629623205501201
+    second: stage_1_piece.022|cube stage 3.009Action
+  - first:
+      74: -8075660319361526925
+    second: stage_1_piece.023|cube stage 3.009Action
+  - first:
+      74: -2961987432259865081
+    second: stage_1_piece.024|cube stage 3.009Action
+  - first:
+      74: 3973882627290992690
+    second: stage_1_piece.025|cube stage 3.009Action
+  - first:
+      74: -3467769978583955703
+    second: stage_1_piece.026|cube stage 3.009Action
+  - first:
+      74: -5852235281813628615
+    second: stage_1_piece.027|cube stage 3.009Action
+  - first:
+      74: -3015950785909986264
+    second: stage_1_piece.028|cube stage 3.009Action
+  - first:
+      74: 2812256004924862854
+    second: stage_1_piece.029|cube stage 3.009Action
+  - first:
+      74: -6072906916251670178
+    second: stage_1_piece.030|cube stage 3.009Action
+  - first:
+      74: -634795917508698030
+    second: stage_1_piece.031|cube stage 3.009Action
+  - first:
+      74: 3568200357947970711
+    second: stage_1_piece.032|cube stage 3.009Action
+  - first:
+      74: 740743749340843996
+    second: stage_1_piece.033|cube stage 3.009Action
+  - first:
+      74: -857677460092328894
+    second: stage_1_piece.034|cube stage 3.009Action
+  - first:
+      74: -5567888260040218385
+    second: stage_1_piece.035|cube stage 3.009Action
+  - first:
+      74: -4820851797971177057
+    second: stage_1_piece.036|cube stage 3.009Action
+  - first:
+      74: -5342545118451719709
+    second: stage_1_piece.037|cube stage 3.009Action
+  - first:
+      74: 2489151418135196620
+    second: stage_1_piece.040|cube stage 3.009Action
+  - first:
+      74: 1605450290853699995
+    second: stage_1_piece.041|cube stage 3.009Action
+  - first:
+      74: 8913646513270221597
+    second: stage_1_piece.042|cube stage 3.009Action
+  - first:
+      74: -4201343697679185395
+    second: stage_2_piece|cube stage 3.009Action
+  - first:
+      74: -2764816208814541397
+    second: cube stage 3.001|cube stage 3.009Action
+  - first:
+      74: -225082324482648428
+    second: cube stage 3.002|cube stage 3.009Action
+  - first:
+      74: -7150352698213739498
+    second: cube stage 3.003|cube stage 3.009Action
+  - first:
+      74: -1808592889738164056
+    second: cube stage 3.004|cube stage 3.009Action
+  - first:
+      74: -3374119391006881516
+    second: cube stage 3.005|cube stage 3.009Action
+  - first:
+      74: 7737605131256979108
+    second: cube stage 3.006|cube stage 3.009Action
+  - first:
+      74: -6126903438588274402
+    second: cube stage 3.007|cube stage 3.009Action
+  - first:
+      74: -498667275300282769
+    second: Cylinder_stage_3|cube stage 3.009Action
+  - first:
+      74: 8628020937647360832
+    second: stage_3_piece|cube stage 3.009Action
+  - first:
+      74: 5411787314806176956
+    second: cube stage 3.009|cube stage 3.009Action
+  - first:
+      74: 4781951162920444690
+    second: Armature|ArmatureAction
+  - first:
+      74: 6270075049668963465
+    second: Armature|cube stage 3.009Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

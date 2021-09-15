@@ -5,12 +5,12 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public GameObject bullet;
-    float speed = 0.1f;
+    float speed = 0.3f;
    
     // Update is called once per frame
     void Update()
     {
-        bullet.transform.Translate(Vector3.back * speed);
+        bullet.transform.Translate(Vector3.back * speed * Time.deltaTime * 100);
     }
 
   

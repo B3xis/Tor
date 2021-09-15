@@ -12,7 +12,7 @@ public class StartScript : MonoBehaviour
     void Start()
     {
         levname = PlayerPrefs.GetString("Level");
-        if (levname == null)
+        if (levname == "")
         {
             levname = "Level1";
             PlayerPrefs.SetString("Level", levname);
